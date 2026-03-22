@@ -1,23 +1,18 @@
-import { useState, useEffect } from "react"
-
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 export default function NavBar() {
     return (
         <header>
 
-            <div className="mainMenu">
-                {/* <div className="topTitle">
-            <h1>Daniel Hultmark</h1> */}
-                {/* </div> */}
+            <div className="mainMenu">                
                 <div>
                     <h1 className="title">Daniel Hultmark</h1>
-                    <div  className="links">
+                    <div className="links">
                         <nav>
-                            <Link to="/">Home</Link>
-                            <Link to="/CV">CV</Link>
-                            <Link to="/About" className="active">About</Link>
-                            <Link to="/Portfolio">Portfolio</Link>
+                            <NavLink to="/" end className={({ isActive }) => isActive ? "active" : ""}>Home</NavLink>
+                            <NavLink to="/CV" className={({ isActive }) => isActive ? "active" : ""}>CV</NavLink>
+                            <NavLink to="/About" className={({ isActive }) => isActive ? "active" : ""}>About</NavLink>
+                            <NavLink to="/Portfolio" className={({ isActive }) => isActive ? "active" : ""}>Portfolio</NavLink>
                         </nav>
                     </div>
                 </div>

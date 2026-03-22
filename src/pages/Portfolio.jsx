@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import Bank from "../images/bank.png"
 
 export default function Portfolio() {
 
@@ -23,6 +24,7 @@ export default function Portfolio() {
                 ) : (
                     projects.map((project) => (
                         <article className="project" key={project.id}>
+                            <img src={Bank} className="codepic" />
                             <h3>{project.name}</h3>
                             <p>{project.description || 'No description available'}</p>
                             <p>Språk: {project.language || 'Unknown'}</p>
