@@ -1,0 +1,32 @@
+{
+  "education": [
+    "Chas Academy - Fullstack .NET",
+    "Astar - Kocklärling",
+    "Thoren Inovation School"
+  ],
+  "workExperience": [
+    {
+      "company": "Sony",
+      "description": "Regions chef Stockholm, ansvarig för försäljningen hos Sonys återförsäljare. Går igenom säljdata för respektive butik och utvärderar försäljningen. Utbildar butikerna inom Sonys produkter. Medverkar även vid mässor och större produktutbildningar."
+    },
+    {
+      "company": "Global Connect",
+      "description": "Jobbade med nykundsbearbetning över telefon för försäljning av Bredbands- och IT-tjänster mot företag över hela Sverige."
+    },
+    {
+      "company": "Telia",
+      "description": "Företagsansvarig i butiken med bred kunskap inom företagsaffären. Förser kunder med lösningar för mobiltelefoni, fast telefoni, bredband, TV samt växellösningar. Mottagning och utlämning av serviceärenden samt support av hård- och mjukvaruproblem."
+    }
+  ],
+  "interests": [
+    "Matlagning",
+    "Segling",
+    "Golf",
+    "Resa"
+  ],
+  "skills": [
+    "Office365",
+    "CRM",
+    "L-ABCD"
+  ]
+}
